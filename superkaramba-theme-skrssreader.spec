@@ -2,7 +2,7 @@
 %define		theme	skrssreader
 
 Summary:	superkaramba - RSS Reader
-Summary(pl):	superkaramba - Czytnik kanalow RSS
+Summary(pl):	superkaramba - Czytnik kana³ów RSS
 Name:		superkaramba-theme-%{theme}
 Version:	1.0
 Release:	1
@@ -14,6 +14,7 @@ URL:		http://www.flagar.com
 Requires:	superkaramba >= 0.36
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+
 %define 	_skrssreaderdir 	/themes/superkaramba/skrssreader
 
 %description
@@ -25,7 +26,8 @@ file to change the URL of the RSS feed, color and size of the fonts.
 %description -l pl
 Czytnik kana³ów RSS dla superkaramby. Czyta informacje z okre¶lonego
 ¼ród³a i wy¶wietla w postaci pokazu slajdów. W razie potrzeby nale¿y
-zmienic URL ¼ród³a w skrssreader.py.
+zmieniæ URL ¼ród³a, kolor i rozmiar fontów w skrssreader.py.
+
 %prep
 %setup -q -n %{theme}-%{version}
 
@@ -39,5 +41,4 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-
 %{_datadir}%{_skrssreaderdir}
