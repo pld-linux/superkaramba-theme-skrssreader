@@ -2,7 +2,7 @@
 %define		theme	skrssreader
 
 Summary:	superkaramba - RSS Reader
-Summary(pl.UTF-8):   superkaramba - Czytnik kanałów RSS
+Summary(pl.UTF-8):	superkaramba - Czytnik kanałów RSS
 Name:		superkaramba-theme-%{theme}
 Version:	1.0
 Release:	1
