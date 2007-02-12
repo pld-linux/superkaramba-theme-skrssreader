@@ -2,7 +2,7 @@
 %define		theme	skrssreader
 
 Summary:	superkaramba - RSS Reader
-Summary(pl):	superkaramba - Czytnik kana≥Ûw RSS
+Summary(pl.UTF-8):   superkaramba - Czytnik kana≈Ç√≥w RSS
 Name:		superkaramba-theme-%{theme}
 Version:	1.0
 Release:	1
@@ -23,10 +23,10 @@ is featured by a temporized slideshow of the headlines (with
 descriptions) from the news feed specified. Modify the skrssreader.py
 file to change the URL of the RSS feed, color and size of the fonts.
 
-%description -l pl
-Czytnik kana≥Ûw RSS dla superkaramby. Czyta informacje z okre∂lonego
-ºrÛd≥a i wy∂wietla w postaci pokazu slajdÛw. W razie potrzeby naleøy
-zmieniÊ URL ºrÛd≥a, kolor i rozmiar fontÛw w skrssreader.py.
+%description -l pl.UTF-8
+Czytnik kana≈Ç√≥w RSS dla superkaramby. Czyta informacje z okre≈õlonego
+≈∫r√≥d≈Ça i wy≈õwietla w postaci pokazu slajd√≥w. W razie potrzeby nale≈ºy
+zmieniƒá URL ≈∫r√≥d≈Ça, kolor i rozmiar font√≥w w skrssreader.py.
 
 %prep
 %setup -q -n %{theme}-%{version}
